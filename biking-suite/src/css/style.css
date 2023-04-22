@@ -1,0 +1,17 @@
+@import url('../../../src/css/style.css');
+
+.product-1 {
+    background: url('../images/model-one-thumbnail.jpg');
+}
+
+.product-2 {
+    background: url('../images/model-two-thumbnail.jpg');
+}
+
+.model-one {
+    background-image: url('../images/model-one-bg.jpg');
+}
+
+.model-two {
+    background-image: url('../images/model-two-bg.jpg');
+}

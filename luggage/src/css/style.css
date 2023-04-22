@@ -1,0 +1,5 @@
+@import url('../../../src/css/style.css');
+
+.model-one {
+    background-image: url('../images/model-one-bg.jpg');
+}

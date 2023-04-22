@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="3D Configurator with the ability of viewing in augmented" />
+    <meta name="author" content="Hoomaan Sheikholeslami, ARize" />
+    <title>Women Bike Suite | ARize 3D Configurator</title>
+    <link rel="stylesheet" href="../../src/css/style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 sticky-md-top viewer" id="viewer">
+                <dive id="3dviewer"></dive>
+            </div>
+            <div class="col-md-3 ms-auto dashboard">
+                <div class="row">
+                    <!-- Select a product -->
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <h4 class="control-title">Select a product</h4>
+                        </div>
+                        <div class="col-6">
+                            <a href="../01/">
+                                <div class="ratio ratio-1x1 rounded border border-primary product product-1"></div>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="../02/">
+                                <div class="ratio ratio-1x1 rounded border product product-2"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Change background color -->
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <label for="colorPickerBackground" class="form-label control-title">Change background
+                                color</label>
+                            <input type="color" class="form-control form-control-color w-100" id="colorPickerBackground"
+                                value="#fdfdfd" title="Choose your color" />
+                        </div>
+                    </div>
+
+                    <!-- Change Ambient Light color -->
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <label for="colorPickerAmbient" class="form-label control-title">Ambient Light Color</label>
+                            <input type="color" class="form-control form-control-color w-100" id="colorPickerAmbient"
+                                value="#fdfdfd" title="Choose your color" />
+                        </div>
+                    </div>
+                    
+                    <!-- Presentation -->
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="presentation" />
+                                <label class="form-check-label control-title"
+                                    for="flexSwitchCheckDefault">Presentation</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="control-title-s" for="delay">Delay</label>
+                            <input type="number" id="delay" class="form-control" step="1" value="3" min="0" />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="control-title-s" for="speed">Speed</label>
+                            <input type="number" id="speed" class="form-control" step="0.1" value="0.1" min="0" />
+                        </div>
+                    </div>
+                    
+                    <!-- Shadow -->
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="shadow" checked />
+                                <label class="form-check-label control-title"
+                                    for="flexSwitchCheckDefault">Shadow</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="control-title-s" for="intensity">Intensity</label>
+                            <input type="range" id="intensity" class="form-range" min="0" max="1" step="0.001" />
+                        </div>
+                    </div>
+                    
+                    <!-- Change color & texture -->
+                    <div class="row my-2">
+                        <div class="col-md-12 control-title">
+                            Change color and texture
+                        </div>
+                        <!-- 1. Body (Color) -->
+                        <div class="col-md-12">
+                            <label for="colorPickerOne" class="form-label control-title-s">Body
+                                (Color)</label>
+                            <input type="color" class="form-control form-control-color w-100" id="colorPickerOne"
+                                value="#563d7c" title="Choose your color" />
+                        </div>
+                        <!-- 2. Shorts (Color) -->
+                        <div class="col-md-12">
+                            <label for="colorPickerTwo" class="form-label control-title-s">Shorts (Color)</label>
+                            <input type="color" class="form-control form-control-color w-100" id="colorPickerTwo"
+                                value="#563d7c" title="Choose your color" />
+                        </div>
+                        <!-- 3. Main Body (Color) -->
+                        <div class="col-md-12">
+                            <label for="colorPickerThree" class="form-label control-title-s">Main Body
+                                (Color)</label>
+                            <input type="color" class="form-control form-control-color w-100" id="colorPickerThree"
+                                value="#563d7c" title="Choose your color" />
+                        </div>
+                    </div>
+                    
+                    <!-- Reflection Map -->
+                    <div class="row my-2">
+                        <div class="col-md-12">
+                            <label for="reflection-map" class="control-title">Reflection map</label>
+                            <select id="reflection-map" class="form-select">
+                                <option value="envNeutral">Neutral</option>
+                                <option value="envHelipad">Helipad</option>
+                                <option value="envTropicalBeach">Tropical Beach</option>
+                                <option value="envWinterFrost1">Winter Forest</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Transform Rotation -->
+                    <div class="row my-2">
+                        <div class="col-md-12 control-title">Transform rotation</div>
+                        <div class="col-md-4">
+                            <label class="control-title-s" for="transform-x">x</label>
+                            <input type="number" id="transform-x" class="form-control" step="1" value="0" />
+                        </div>
+                        <div class="col-md-4">
+                            <label class="control-title-s" for="transform-y">y</label>
+                            <input type="number" id="transform-y" class="form-control" step="1" value="0" />
+                        </div>
+                        <div class="col-md-4">
+                            <label class="control-title-s" for="transform-z">z</label>
+                            <input type="number" id="transform-z" class="form-control" step="1" value="0" />
+                        </div>
+                    </div>
+                    
+                    <!-- Orbit Camera -->
+                    <div class="row my-2">
+                        <div class="col-md-12 control-title">Orbit camera target</div>
+                        <div class="col-md-4">
+                            <label class="control-title-s" for="targetPitch">Pitch</label>
+                            <input type="number" id="targetPitch" class="form-control" step="1" value="0" min="0"
+                                max="360" />
+                        </div>
+                        <div class="col-md-4">
+                            <label class="control-title-s" for="targetYaw">Yaw</label>
+                            <input type="number" id="targetYaw" class="form-control" step="1" value="0" min="0"
+                                max="360" />
+                        </div>
+                        <div class="col-md-4">
+                            <label class="control-title-s" for="targetDistance">Distance</label>
+                            <input type="number" id="targetDistance" class="form-control" step="0.01" value="0" min="0"
+                                max="360" />
+                        </div>
+                    </div>
+                    
+                    <!-- Screenshot -->
+                    <div class="row my-2 mb-5">
+                        <div class="d-grid gap-2">
+                            <button type="button" name="screenshot" id="screenshot" class="btn btn-primary">
+                                Take a screenshot
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add the following script at the bottom of your page -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://arize.io/xrviewerlibjs/arize-xr-viewer.min.js"></script>
+    <script src="../../src/js/model-one.js"></script>
+</body>
+
+</html>

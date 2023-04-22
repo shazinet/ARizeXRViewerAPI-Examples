@@ -1,0 +1,33 @@
+/* Material Picker */
+.btn-outline-primary {
+  --bs-btn-border-color: transparent;
+  --bs-btn-border-radius: 2.5rem;
+  --bs-btn-active-bg: #fff;
+  margin: 0 0px;
+}
+
+.color {
+  width: 48px;
+  height: 48px;
+  display: block;
+  border-radius: 45px;
+  border: 1px solid #C6C5CA;
+}
+
+.btn.btn-outline-primary {
+  padding: 3px;
+  border-width: 2px;
+  --bs-btn-active-border-color: #919191;
+}
+
+@media (max-width: 767.98px) {
+  .color {
+      width: 30px;
+      height: 30px;
+  }
+
+  .btn.btn-outline-primary {
+      padding: 3px;
+      border-width: 1px;
+  }
+}

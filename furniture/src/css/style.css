@@ -1,0 +1,98 @@
+@import url('../../../src/css/style.css');
+@import url('../../../src/css/material.css');
+
+.product-1 {
+    background: url('../images/legs/t1.png');
+}
+
+.product-2 {
+    background: url('../images/legs/t2.png');
+}
+
+.product-3 {
+    background: url('../images/legs/t3.png');
+}
+
+.model-one {
+    background-image: url('../images/model-one-bg.jpg');
+}
+
+.color1 {
+    background-image: url('../3d/Cushin/Furniture_Cushin_BaseColor1.jpg');
+}
+
+.color2 {
+    background-image: url('../3d/Cushin/Furniture_Cushin_BaseColor2.jpg');
+}
+
+.color3 {
+    background-image: url('../3d/Cushin/Furniture_Cushin_BaseColor3.jpg');
+}
+
+.color4 {
+    background-image: url('../3d/Cushin/Furniture_Cushin_BaseColor4.jpg');
+}
+
+.color5 {
+    background-image: url('../3d/Sofa/Furniture_Sofa_BaseColor1.jpg');
+}
+
+.color6 {
+    background-image: url('../3d/Sofa/Furniture_Sofa_BaseColor2.jpg');
+}
+
+.color7 {
+    background-image: url('../3d/Sofa/Furniture_Sofa_BaseColor3.jpg');
+}
+
+.color8 {
+    background-image: url('../3d/Sofa/Furniture_Sofa_BaseColor4.jpg');
+}
+
+.color9 {
+    background-image: url('../3d/Legs/T1/Furniture_Legs_BaseColorT1-1.jpg');
+}
+
+.color10 {
+    background-image: url('../3d/Legs/T1/Furniture_Legs_BaseColorT1-2.jpg');
+}
+
+.color11 {
+    background-image: url('../3d/Legs/T1/Furniture_Legs_BaseColorT1-3.jpg');
+}
+
+.color12 {
+    background-image: url('../3d/Legs/T1/Furniture_Legs_BaseColorT1-5.jpg');
+}
+
+.color13 {
+    background-image: url('../3d/Legs/T2/Furniture_Legs_BaseColorT2-1.jpg');
+}
+
+.color14 {
+    background-image: url('../3d/Legs/T2/Furniture_Legs_BaseColorT2-2.jpg');
+}
+
+.color15 {
+    background-image: url('../3d/Legs/T2/Furniture_Legs_BaseColorT2-3.jpg');
+}
+
+.color16 {
+    background-image: url('../3d/Legs/T2/Furniture_Legs_BaseColorT2-4.jpg');
+}
+
+.color17 {
+    background-image: url('../3d/Legs/T3/Furniture_Legs_BaseColorT3-1.jpg');
+}
+
+.color18 {
+    background-image: url('../3d/Legs/T3/Furniture_Legs_BaseColorT3-2.jpg');
+}
+
+.color19 {
+    background-image: url('../3d/Legs/T3/Furniture_Legs_BaseColorT3-3.jpg');
+}
+
+.color20 {
+    background-image: url('../3d/Legs/T3/Furniture_Legs_BaseColorT3-4.jpg');
+}

@@ -1,0 +1,38 @@
+@import url('../../../src/css/style.css');
+@import url('../../../src/css/material.css');
+
+.model-one {
+    background-image: url('../images/model-one-bg.jpg');
+}
+
+.color1 {
+    background-image: url('../3d/MainBody/M_2K_1_Base_color1.jpg');
+}
+
+.color2 {
+    background-image: url('../3d/MainBody/M_2K_1_Base_color2.jpg');
+}
+
+.color3 {
+    background-image: url('../3d/MainBody/M_2K_1_Base_color3.jpg');
+}
+
+.color4 {
+    background-image: url('../3d/MainBody/M_2K_1_Base_color4.jpg');
+}
+
+.color5 {
+    background-image: url('../3d/Stem/M_1K_1_Base_color1.jpg');
+}
+
+.color6 {
+    background-image: url('../3d/Stem/M_1K_1_Base_color2.jpg');
+}
+
+.color7 {
+    background-image: url('../3d/Stem/M_1K_1_Base_color3.jpg');
+}
+
+.color8 {
+    background-image: url('../3d/Stem/M_1K_1_Base_color4.jpg');
+}
