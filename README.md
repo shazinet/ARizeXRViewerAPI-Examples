@@ -19,15 +19,20 @@ In this example you are able to configur backpack with different parts and see i
 
 ### Bike configorator & AR
 In this example you are able to configure a mountain bike and see it in AR 
+[Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/bike)
 
 ### Biking suite configurator & AR
 In this example you are able to configure a set of biking suite for a male and feamle and see in AR
+[Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/biking-suite)
 
 ### Furniture configurator & AR
 In this example you are able to configure a funiture with different parts and see different variabts of different parts and see it in AR 
+[Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/furniture)
 
 ### Luggage configurator & AR
 In this example you are able to configure a set of luggage to see it in different colors and experience it in AR 
+[Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/luggage)
 
 ### Scooter Configurator & AR
 In this example you are able to configure a scooter with different parts adn see it in AR 
+[Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/scooter)
