@@ -18,7 +18,6 @@
 ### BackPack configurator & AR
 In this example you are able to configur backpack with different parts and see it AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/backpack). <br>
-[Video Demo](https://youtu.be/f-FxIBNaI7w)
 
 
 ### Bike configorator & AR
