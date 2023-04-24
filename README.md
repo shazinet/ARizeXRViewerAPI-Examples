@@ -13,19 +13,19 @@
 * [Scooter Configurator & AR](#scooter-configurator--ar)
 
 ### BackPack configurator & AR
-This is the section for the BackPack configurator & AR.
+In this example you are able to configur backpack with different parts and see it AR 
 
 ### Bike configorator & AR
-This is the section for the Bike configorator & AR.
+In this example you are able to configure a mountain bike and see it in AR 
 
 ### Biking suite configurator & AR
-This is the section for the Biking suite configurator & AR.
+In this example you are able to configure a set of biking suite for a male and feamle and see in AR
 
 ### Furniture configurator & AR
-This is the section for the Furniture configurator & AR.
+In this example you are able to configure a funiture with different parts and see different variabts of different parts and see it in AR 
 
 ### Luggage configurator & AR
-This is the section for the Luggage configurator & AR.
+In this example you are able to configure a set of luggage to see it in different colors and experience it in AR 
 
 ### Scooter Configurator & AR
-This is the section for the Scooter Configurator & AR.
+In this example you are able to configure a scooter with different parts adn see it in AR 
