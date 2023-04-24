@@ -1,0 +1,30 @@
+@import url("../../../src/css/style.css");
+@import url("../../../src/css/material.css");
+
+.model-one {
+  background-image: url("../images/model-one-bg.jpg");
+}
+
+.color1 {
+  background-image: url("../3d/T_Shoe_A_Base_color_Blue.jpg");
+}
+
+.color2 {
+  background-image: url("../3d/T_Shoe_A_Base_color_Black.jpg");
+}
+
+.color3 {
+  background-image: url("../3d/T_Shoe_A_Base_color_Purple.jpg");
+}
+
+.color4 {
+  background-image: url("../3d/T_Shoe_A_Base_color_Red.jpg");
+}
+
+.color5 {
+  background-image: url("../3d/T_Shoe_A_Base_color_White.jpg");
+}
+
+.color6 {
+  background-image: url("../3d/T_Shoe_A_Base_color_Yellow.jpg");
+}
