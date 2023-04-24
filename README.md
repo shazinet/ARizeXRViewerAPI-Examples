@@ -1,7 +1,7 @@
 # ARizeXRViewerAPI-Examples
  ARize XR Viewer is a JavaScript library that enables viewing and manipulating 3D objects on the web and integrating them into AR experiences using the device's camera. It offers a variety of features for working with 3D models, including material manipulation, animations, variants, and more.
 
-[Checkout a Video Demo](https://youtu.be/f-FxIBNaI7w)
+[Video Demo](https://youtu.be/f-FxIBNaI7w)
 
 
 
@@ -18,24 +18,30 @@
 ### BackPack configurator & AR
 In this example you are able to configur backpack with different parts and see it AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/backpack)
+[Video Demo](https://youtu.be/f-FxIBNaI7w)
 
 
 ### Bike configorator & AR
 In this example you are able to configure a mountain bike and see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/bike)
 
+
 ### Biking suite configurator & AR
 In this example you are able to configure a set of biking suite for a male and feamle and see in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/biking-suite)
+[Video Demo](https://youtu.be/E1HhVkFE9hw)
 
 ### Furniture configurator & AR
 In this example you are able to configure a funiture with different parts and see different variabts of different parts and see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/furniture)
+[Video Demo](https://youtu.be/nY8uEroBMqQ)
 
 ### Luggage configurator & AR
 In this example you are able to configure a set of luggage to see it in different colors and experience it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/luggage)
+[Video Demo](https://youtu.be/Kz0lRJNCeAE)
 
 ### Scooter Configurator & AR
 In this example you are able to configure a scooter with different parts adn see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/scooter)
+[Video Demo](https://youtu.be/AGD-Zi3c5NU)
