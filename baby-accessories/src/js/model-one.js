@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Intensity
     var intensity = document.getElementById('intensity');
     if (intensity) {
-        intensity.onclick = function () {
+        intensity.oninput = function () {
             intensityStatus = intensity.value;
             arize.setShadow(intensityStatus);
             console.log('intensityStatus: ' + intensityStatus);
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Background
     var colorPickerBackground = document.getElementById('colorPickerBackground');
     if (colorPickerBackground) {
-        colorPickerBackground.onchange = function () {
+        colorPickerBackground.oninput = function () {
             var rgbColor = hexToRgb(colorPickerBackground.value);
             var modelFrame = document.getElementById('viewer');
             modelFrame.style.backgroundColor = "rgba(" + (rgbColor.r) * 255 + "," + (rgbColor.g) * 255 + "," + (rgbColor.b) * 255 + ",1)";
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Ambient
     var colorPickerAmbient = document.getElementById('colorPickerAmbient');
     if (colorPickerAmbient) {
-        colorPickerAmbient.onchange = function () {
+        colorPickerAmbient.oninput = function () {
             var rgbColor = hexToRgb(colorPickerAmbient.value);
             arize.setAmbientlight(rgbColor.r, rgbColor.g, rgbColor.b);
             console.log('colorPickerAmbient: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // One
     var colorPickerOne = document.getElementById('colorPickerOne');
     if (colorPickerOne) {
-        colorPickerOne.onchange = function () {
+        colorPickerOne.oninput = function () {
             var rgbColor = hexToRgb(colorPickerOne.value);
             arize.changeMatColor(arize.rootEntity.children[0].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerOne: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Two
     var colorPickerTwo = document.getElementById('colorPickerTwo');
     if (colorPickerTwo) {
-        colorPickerTwo.onchange = function () {
+        colorPickerTwo.oninput = function () {
             var rgbColor = hexToRgb(colorPickerTwo.value);
             arize.changeMatColor(arize.rootEntity.children[1].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerTwo: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Three
     var colorPickerThree = document.getElementById('colorPickerThree');
     if (colorPickerThree) {
-        colorPickerThree.onchange = function () {
+        colorPickerThree.oninput = function () {
             var rgbColor = hexToRgb(colorPickerThree.value);
             arize.changeMatColor(arize.rootEntity.children[2].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerThree: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Four
     var colorPickerFour = document.getElementById('colorPickerFour');
     if (colorPickerFour) {
-        colorPickerFour.onchange = function () {
+        colorPickerFour.oninput = function () {
             var rgbColor = hexToRgb(colorPickerFour.value);
             arize.changeMatColor(arize.rootEntity.children[3].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerFour: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Five
     var colorPickerFive = document.getElementById('colorPickerFive');
     if (colorPickerFive) {
-        colorPickerFive.onchange = function () {
+        colorPickerFive.oninput = function () {
             var rgbColor = hexToRgb(colorPickerFive.value);
             arize.changeMatColor(arize.rootEntity.children[4].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerFive: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Six
     var colorPickerSix = document.getElementById('colorPickerSix');
     if (colorPickerSix) {
-        colorPickerSix.onchange = function () {
+        colorPickerSix.oninput = function () {
             var rgbColor = hexToRgb(colorPickerSix.value);
             arize.changeMatColor(arize.rootEntity.children[5].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerSix: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Seven
     var colorPickerSeven = document.getElementById('colorPickerSeven');
     if (colorPickerSeven) {
-        colorPickerSeven.onchange = function () {
+        colorPickerSeven.oninput = function () {
             var rgbColor = hexToRgb(colorPickerSeven.value);
             arize.changeMatColor(arize.rootEntity.children[6].render.meshInstances[0].material, rgbColor.r, rgbColor.g, rgbColor.b, 1);
             console.log('colorPickerSeven: ' + 'rgba(' + rgbColor.r + ',' + rgbColor.g + ',' + rgbColor.b + ',1)');
