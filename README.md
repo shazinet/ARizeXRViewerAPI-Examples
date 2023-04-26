@@ -8,24 +8,27 @@
 <!-- TABLE OF CONTENTS -->
 ## Examples
 
-* [BackPack configurator & AR](#backpack-configurator--ar)
-* [Bike configorator & AR](#bike-configorator--ar)
-* [Biking suite configurator & AR](#biking-suite-configurator--ar)
-* [Furniture configurator & AR](#furniture-configurator--ar)
-* [Luggage configurator & AR](#luggage-configurator--ar)
-* [Scooter Configurator & AR](#scooter-configurator--ar)
-* [Sporting Helmet Configurator & AR](#helmet-configurator--ar)
-* [Shoe Configurator & AR](#shoe-configurator--ar)
+* [Baby Accessories configurator & AR](#-baby-accessories-configurator--ar)
+* [BackPack configurator & AR](#-backpack-configurator--ar)
+* [Bike configorator & AR](#-bike-configorator--ar)
+* [Biking suite configurator & AR](#-biking-suite-configurator--ar)
+* [Furniture configurator & AR](#-furniture-configurator--ar)
+* [Luggage configurator & AR](#-luggage-configurator--ar)
+* [Scooter Configurator & AR](#-scooter-configurator--ar)
+* [Sporting Helmet Configurator & AR](#-helmet-configurator--ar)
+* [Shoe Configurator & AR](#-shoe-configurator--ar)
+
+### 👶 Baby Accessories configurator & AR
+In this example you are able to configur baby accessories with different parts and see it AR.
+[Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/baby-accessories). <br>
 
 ### 🎒 BackPack configurator & AR
 In this example you are able to configur backpack with different parts and see it AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/backpack). <br>
 
-
 ### 🚲 Bike configorator & AR
 In this example you are able to configure a mountain bike and see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/bike)
-
 
 ### 👚 Biking suite configurator & AR
 In this example you are able to configure a set of biking suite for a male and feamle and see in AR.
