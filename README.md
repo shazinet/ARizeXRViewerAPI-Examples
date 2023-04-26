@@ -17,40 +17,40 @@
 * [Sporting Helmet Configurator & AR](#helmet-configurator--ar)
 * [Shoe Configurator & AR](#shoe-configurator--ar)
 
-### BackPack configurator & AR
+### 🎒 BackPack configurator & AR
 In this example you are able to configur backpack with different parts and see it AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/backpack). <br>
 
 
-### Bike configorator & AR
+### 🚲 Bike configorator & AR
 In this example you are able to configure a mountain bike and see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/bike)
 
 
-### Biking suite configurator & AR
+### 👚 Biking suite configurator & AR
 In this example you are able to configure a set of biking suite for a male and feamle and see in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/biking-suite). <br>
 [Video Demo](https://youtu.be/E1HhVkFE9hw)
 
-### Furniture configurator & AR
+### 🪑 Furniture configurator & AR
 In this example you are able to configure a funiture with different parts and see different variabts of different parts and see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/furniture). <br>
 [Video Demo](https://youtu.be/nY8uEroBMqQ)
 
-### Luggage configurator & AR
+### 🧳 Luggage configurator & AR
 In this example you are able to configure a set of luggage to see it in different colors and experience it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/luggage). <br>
 [Video Demo](https://youtu.be/Kz0lRJNCeAE)
 
-### Scooter Configurator & AR
+### 🛴 Scooter Configurator & AR
 In this example you are able to configure a scooter with different parts adn see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/scooter). <br>
 [Video Demo](https://youtu.be/AGD-Zi3c5NU)
 
-### helmet Configurator & AR
+### 🪖 helmet Configurator & AR
 In this example you are able to configure a scooter with different parts adn see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/helmet). <br>
 
-### Shoe Configurator & AR
+### 👟 Shoe Configurator & AR
 In this example you are able to configure a scooter with different parts adn see it in AR.
 [Checkout the code](https://github.com/ARizeDevs/ARizeXRViewerAPI-Examples/tree/main/shoes). <br>
